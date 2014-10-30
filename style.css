@@ -1,0 +1,68 @@
+html {
+
+  font-family: 'Open Sans';
+
+}
+
+#background {
+  background-color: 008CB8;
+  height: 100%;
+
+  }
+
+#left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+
+#right {
+  background-color: white;
+  margin-left: 200px;
+}
+
+#right a:link{
+  font-size: 13px;
+  color: #0084B2;
+  text-decoration: none;
+}
+
+#right a:hover {
+  text-decoration: underline;
+}
+
+#right a:active{
+  color: blue;
+}
+
+#right a:visited{
+  font-size: 13px;
+  color: #0084B2;
+  text-decoration: none;
+}
+
+#right h2{
+  font-size: 22px;
+  color: #000000;
+}
+
+#right p{
+
+  font-size: 13px;
+  color: #000000;
+}
+
+#right input{
+  border-bottom-color: #EEEEEE;
+
+}
+
+#right button{
+  font-size: 13px;
+  font-color: #0084B2;
+  background-color: white;
+  weight: bold;
+  border: #0084B2 1px solid;
+}
