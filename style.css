@@ -10,17 +10,42 @@ html {
 
   }
 
-#left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
+#foreground {
+  {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
 }
 
+}
+#left {
+    position: absolute;
+    top: 127px;
+    left: 185px;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-right: thick solid #CDCDCF;
+}
 
+#telegram {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 130px;
+
+}
 #right {
+  position: absolute;
+  top: 127px;
+  left: 290px;
+  height: 300px;
+  width: 400px;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 300px;
+
 }
 
 #right a:link{
@@ -65,4 +90,8 @@ html {
   background-color: white;
   weight: bold;
   border: #0084B2 1px solid;
+}
+
+#postmark{
+  float: right;
 }

@@ -7,18 +7,22 @@
 
   <body>
     <div id = "background">
-      <div id ="left">
-        <img src ="./images/telegram-logo.png"/>
+      <div id = "foreground">
+        <div id ="left">
+          <img id = "telegram" src ="./images/telegram-logo.png"/>
+        </div>
+        <div id = "right">
+          <img id="postmark" src = "./images/postmark.png"/>
+          <br><br><br>
+          <span id = "mini-title">Get going ...</span>
+          <p><input type = "text" placeholder = "Enter your username ..."></p>
+          <p><input type = "password" placeholder = "Enter your password ..."></p>
+          <button>Log in</button>
+          <a href = "recover_pw.html">Recover password </a>
+          or <a href = "signup.html"> Sign up </a>
+        </div>
       </div>
-    <div id = "right">
-      <img src = "./images/postmark.png"/>
-      <h2>Get going ...</h2>
-      <p>Enter your username: <input type = "text"></p>
-      <p>Enter your password: <input type = "password"></p>
-      <button>Log in</button>
-      <a href = "www.google.com">Recover password </a>
-      or <a href = "www.google.com"> Sign up </a>
     </div>
-  </div>
-</body>
+  </body>
+
 </html>
