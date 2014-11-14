@@ -3,23 +3,26 @@ body{
   font-family: "Open Sans";
 }
 
-#login_area{
-  position: absolute;
+.login_area{
+  /*position: absolute;*/
   width: 900px;
   height: 400px;
-  top:120px;
-  left: 50%;
+  /*top:120px;*/
+  /*left: 50%;*/
   background-color: white;
-  margin: 0 0 0 -450;
+  /*margin: 0 0 0 -450;*/
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-#left_login{
-  position: absolute;
+.left_login{
+  position: relative;
   width: 450px;
   height: 400px;
+  float: left;
 }
 
-#logo{
+.logo{
   position: absolute;
   width: 240px;
   height: 80px;
@@ -29,15 +32,16 @@ body{
 }
 
 
-#right_login{
-  position: absolute;
+.right_login{
+  position: relative;
   width: 450px;
   height: 400px;
   top: 0px;
   right:0px;
+  float: left;
 }
 
-#postmark{
+.postmark{
   position: absolute;
   width: 195px;
   height: 75px;
@@ -45,7 +49,7 @@ body{
   right: 0px;
 }
 
-#signin_area{
+.signin_area{
   position: absolute;
   width: 336px;
   height: 156px;
@@ -54,7 +58,7 @@ body{
   margin: 0 0 0 -168px;
 }
 
-#vertical_bar{
+.vertical_bar{
   position: absolute;
   width: 2px;
   height: 200px;
@@ -62,22 +66,27 @@ body{
   left:50%;
   background-color: #D3D3D3;
 }
-#get_going{
+.get_going{
   font-size: 22px;
   font-color: #000000;
 }
 
-#login_form{
+.login_form{
   position: absolute;
   left: 66px;
   font-size: 13px;
 }
 
-input{
+.input{
   width: 250px;
+  height: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom-color: #EEEEEE;
+  outline: none;
 }
-button{
+.simple_action{
   font-size: 13px;
   color: #0084B2;
   font-weight: bold;
