@@ -59,12 +59,12 @@ body{
 }
 
 .vertical_bar{
-  position: absolute;
+  position: relative;
   width: 2px;
   height: 200px;
   top:25%;
-  left:50%;
-  background-color: #D3D3D3;
+  float: right;
+  border-right: 1px solid #ddd;
 }
 .get_going{
   font-size: 22px;
